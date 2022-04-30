@@ -1,0 +1,67 @@
+*{
+    font-family:'Roboto', sans-serif;
+}
+.navbar-brand{
+    justify-content: flex-start;
+    display: flex;
+    align-items: center;
+    margin-top: auto;
+    margin-left: 25px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+.uk-background-cover{
+    background: no-repeat center center fixed;
+    background-size: cover;
+    height: 85vh;
+    overflow: hidden;
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    color: gray;
+    text-align: center;
+}
+
+.welcome-page{
+font-family: 'Roboto', sans-serif;
+color: white
+}
+
+img{
+    float:left;
+    width: 200px;
+    height: 285px;
+    padding: 10px;
+    border-radius: 5%;
+}
+
+.uk-button{
+    margin-left:300px;
+}
+
+#projects-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.work-img{
+    width:230px;
+    height:285px;
+    padding:10px;
+}
+
+#projects-container {
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    width:95%;
+    height: 35%;
+    border:5px solid black;
+}
