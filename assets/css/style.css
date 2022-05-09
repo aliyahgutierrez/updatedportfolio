@@ -67,3 +67,6 @@ img{
     right: 0;
     overflow: auto;
 }
+.section-header{
+    text-align: center;
+}
