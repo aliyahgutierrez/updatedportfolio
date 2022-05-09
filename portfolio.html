@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Welcome|Aliyahs Portfolio</title>
+    <title>Aliyahs Portfolio</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Ulkit stylesheet -->
@@ -10,7 +10,7 @@
     <script src="js/uikit.min.js"></script>
     <script src="js/uikit-icons.min.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.13.10/dist/css/uikit.min.css" />
-    <link rel="stylesheet" href="style1.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <!-- google fonts -->
@@ -28,21 +28,16 @@
             <h2 class="navbar-brand"><a href="index.html">ALIYAH GUTIERREZ</h2></a>
             <div class="uk-navbar-right">
                 <ul class="uk-navbar-nav">
-                    <li class="uk-active"><a href="#">Active</a></li>
+                    <li><a href= "index.html">Home</a></li>
+                    <li class="uk-active"><a href="about.html">About Me</a></li>
                     <li>
-                        <a href="#">Parent</a>
-                        <div class="uk-navbar-dropdown">
-                            <ul class="uk-nav uk-navbar-dropdown-nav">
-                                <li class="uk-active"><a href="#">Active</a></li>
-                                <li><a href="#">Item</a></li>
-                                <li><a href="#">Item</a></li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li><a href="#">Item</a></li>
+                        <a href="portfolio.html">Portfolio</a>
+                    <li><a href="#">Contact</a></li>
                 </ul>
 
             </div>
+        </nav>
+    </div>
         </nav>
     </div>
 
@@ -51,12 +46,78 @@
         <div>
             <div class="uk-background-top-left uk-background-cover uk-height-medium uk-panel uk-flex uk-flex-middle uk-flex-center"
                 style="background-image: url(assets/porfolio1.jpg);">
+                
+                <!-- projects container -->
                 <div>
-                    <div class="uk-cover">
-                        <div
-                            class="uk-position-large uk-position-cover uk-overlay uk-overlay-default uk-flex uk-flex-center uk-flex-middle">
+                    <section class="projects-container">
+                        <div class="uk-cover">
+                            <div
+                                class="uk-position-large uk-position-cover uk-overlay uk-overlay-default uk-flex uk-flex-center uk-flex-middle">
+                                <div class="uk-child-width-expand@s uk-text-center uk-grid-row-large" uk-grid>
+                                    <div class="uk-text-center">
+                                        <div class="uk-inline-clip uk-transition-toggle uk-light" tabindex="0">
+                                            <img src="https://images.pulsewebcontent.com/photos/2018/08_Aug/800/Eagles1975_8_18.jpg"
+                                                alt="">
+                                            <div class="uk-position-center">
+                                                <div class="uk-transition-slide-top-small">
+                                                <a href ="https://aliyahgutierrez.github.io/theeaglesfanpage/" target="_blank"> <h4 class="uk-margin-remove">Click</h4></a>
+                                                </div>
+                                                <div class="uk-transition-slide-bottom-small">
+                                                 <a href ="https://aliyahgutierrez.github.io/theeaglesfanpage/" target="_blank"> <h4 class="uk-margin-remove">Here</h4></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <p class="uk-margin-small-top">The Eagels</p>
+                                    </div>
 
-                            <div class="section2">
+                                    <div class="uk-child-width-expand@s uk-text-center uk-grid-row-large" uk-grid>
+                                        <div class="uk-text-center">
+                                            <div class="uk-inline-clip uk-transition-toggle uk-light "
+                                                tabindex="0">
+                                                <img src="https://aliyahgutierrez.github.io/landing-page/assets/jamaica.jpeg"
+                                                    alt="">
+                                                <div class="uk-position-center">
+                                                    <div class="uk-transition-slide-top-small">
+                                                        <a href="https://aliyahgutierrez.github.io/landing-page/" target="_blank">  <h4 class="uk-margin-remove">Click</h4></a>
+                                                    </div>
+                                                    <div class="uk-transition-slide-bottom-small">
+                                                        <a href="https://aliyahgutierrez.github.io/landing-page/ "target= "_blank"> <h4 class="uk-margin-remove">Here</h4></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <p class="uk-margin-small-top">Landing Page</p>
+                                        </div>
+
+                                        <div class="uk-child-width-expand@s uk-text-center uk-grid-row-large" uk-grid>
+                                            <div class="uk-text-center">
+                                                <div class="uk-inline-clip uk-transition-toggle uk-light "
+                                                    tabindex="0">
+                                                    <img src="assets/hockey1.jpeg"
+                                                        alt="">
+                                                    <div class="uk-position-center">
+                                                        <div class="uk-transition-slide-top-small">
+                                                        <a href="https://inaiak.github.io/eventListener/" target="_blank">  <h4 class="uk-margin-remove">Click</h4></a>
+                                                        </div>
+                                                        <div class="uk-transition-slide-bottom-small">
+                                                        <a href="https://inaiak.github.io/eventListener/" target="_blank"> <h4 class="uk-margin-remove">Here</h4></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <p class="uk-margin-small-top">eventListener</p>
+                                            </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+
+
+
+
+
+
+                    <!-- <div class="section2">
                                 <div id="projects-container">
                                     <figure class = "card-imgs">
                                         <h2 class = "section-header">My Work</h2>
@@ -64,7 +125,13 @@
                                             <a href ="https://aliyahgutierrez.github.io/landing-page/" target="_blank"> <img class="work-img" alt="jamaica" src="https://aliyahgutierrez.github.io/landing-page/assets/jamaica.jpeg"></a>                                         </p>
                                     </figure>
                                 </div>
-                            </div>
+                            </div> -->
+
+
+
+
+
+
     </section>
 
 
@@ -72,26 +139,26 @@
 
 
     <footer id="sticky-footer" class="py-3 mt-auto bg-dark">
-        <p>Footer</p>
+        <p>Aliyah Gutierrez , Copyright &copy;, 2022</p>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.13.10/dist/js/uikit.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.13.10/dist/js/uikit-icons.min.js"></script>
 </body>
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <!--                     
                     <section class="project-images">
                         <div id="projects-container">
